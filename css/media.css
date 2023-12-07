@@ -1,0 +1,36 @@
+@media screen and (max-width: 750px) {
+    section {
+        display: flex;
+        flex-direction: column;
+        max-width: 350px;
+        align-self: center;
+    }
+
+    nav a {
+        display: none;
+    }
+
+    #inspiration div {
+        flex-direction: column;
+        gap: 2em;
+    }
+    #history img {
+        max-width: 300px;
+    }
+
+    main {
+        padding: 10px;
+    }
+
+    img{
+        max-width: 300px;
+    }
+
+    #house1 {
+        max-width:300px
+    }
+    #house2 {
+        max-width:300px
+    }
+    
+}
